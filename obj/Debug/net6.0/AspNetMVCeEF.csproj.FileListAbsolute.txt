@@ -56,3 +56,4 @@ C:\Users\fabri\source\repos\AspNetMVCeEF\AspNetMVCeEF\obj\Debug\net6.0\AspNetMVC
 C:\Users\fabri\source\repos\AspNetMVCeEF\AspNetMVCeEF\obj\Debug\net6.0\ref\AspNetMVCeEF.dll
 C:\Users\fabri\source\repos\AspNetMVCeEF\AspNetMVCeEF\obj\Debug\net6.0\AspNetMVCeEF.pdb
 C:\Users\fabri\source\repos\AspNetMVCeEF\AspNetMVCeEF\obj\Debug\net6.0\AspNetMVCeEF.genruntimeconfig.cache
+C:\Users\fabri\source\repos\AspNetMVCeEF\AspNetMVCeEF\obj\Debug\net6.0\AspNetMVCeEF.csproj.AssemblyReference.cache

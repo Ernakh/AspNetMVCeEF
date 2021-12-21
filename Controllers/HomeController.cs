@@ -81,9 +81,13 @@ namespace AspNetMVCeEF.Controllers
             return View();
         }
 
+        //public IActionResult CadastroEmail(Email email, int? id)
         [HttpPost]
-        public IActionResult CadastroEmail(Email email, int? id)
+        public IActionResult CadastroEmail(string emailTexto, int? id)
         {
+            Email email = new Email();
+            email.email = emailTexto;
+
             Contexto contexto = new Contexto();
 
             Pessoa? pessoa = new Pessoa();

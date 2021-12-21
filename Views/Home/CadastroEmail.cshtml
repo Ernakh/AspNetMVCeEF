@@ -15,7 +15,8 @@
 {
     <div>
         @Html.DisplayNameFor(m => m.email) <br /><br />
-        @Html.TextBoxFor(m => m.email)<br />
+        @Html.TextBox("emailTexto", string.Empty, new { @class = "" })
+        @*@Html.TextBoxFor(m => m.email)<br />*@
     </div>
 
     <input type="submit" value="Cadastrar Email" />

@@ -1,0 +1,22 @@
+﻿@using AspNetMVCeEF.Models
+@model AspNetMVCeEF.Models.Email
+@{
+    IEnumerable<Email> emails = ViewData["Emails"] as IEnumerable<Email>;
+    int? idPessoa = ViewData["idPessoa"] as int?;
+}
+
+@foreach (var email in emails)
+{
+    <strong>@email.email</strong>
+    <br />
+}
+
+@using (Html.BeginForm("CadastroEmail", "Home", FormMethod.Post, new { id = idPessoa }))
+{
+    <div>
+        @Html.DisplayNameFor(m => m.email) <br /><br />
+        @Html.TextBoxFor(m => m.email)<br />
+    </div>
+
+    <input type="submit" value="Cadastrar Email" />
+}

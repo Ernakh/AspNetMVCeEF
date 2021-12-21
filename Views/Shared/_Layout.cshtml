@@ -1,0 +1,21 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+</head>
+<body>
+    <header>
+        <a href="/">Home</a>
+        <a href="@Url.Action("Sobre", "Home")">Sobre</a>
+        <a href="@Url.Action("Cadastrar", "Home")">Cadastrar</a>
+        <a href="@Url.Action("Pessoa", "Home")">Pessoa</a>
+        <a href="@Url.Action("Pessoas", "Home")">Pessoas</a>
+    </header>
+    <hr />
+    @RenderBody()
+    <hr />
+    <footer>
+        rodapé - 2021
+    </footer>
+</body>
+</html>

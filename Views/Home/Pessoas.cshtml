@@ -1,0 +1,19 @@
+﻿@model IEnumerable<AspNetMVCeEF.Models.Pessoa>
+
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+@foreach (var pessoa in @Model)
+{
+    <strong>@pessoa.Nome</strong>
+    <br />
+    @foreach  (var email in @pessoa.Emails)
+    {
+        @email.email
+        <br />
+    }
+    <br />
+}
